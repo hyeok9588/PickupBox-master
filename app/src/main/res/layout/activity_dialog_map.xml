@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e6191">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapV2"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="350dp" />
+
+
+    <ScrollView
+        android:id="@+id/scollview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/DDtext2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="information about Direction point"
+                android:textSize="15dp" />
+            <Button
+                android:id="@+id/btnOkay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="네! 여기로 배송할래요!"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
